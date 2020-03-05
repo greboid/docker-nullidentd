@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 RUN apt-get update && \
   apt-get install nullidentd -y && \
   apt-get upgrade -y && \
